@@ -1,0 +1,110 @@
+/* Projects */
+body{
+  background: black;
+}
+h1{
+  font-family: 'Barlow Condensed', sans-serif;
+  color: white;
+  text-align: center;
+  font-weight: 900;
+  font-size: 80px;
+  margin-bottom: 10px;
+}
+.projects-wrapper {
+  padding: 20px;
+  text-align: center;
+  min-height: 100vh;
+}
+  .container {
+    position: relative;
+    width: 50%;
+  }
+  .image {
+   display: block;
+   width: 100%;
+   height: auto;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+  }
+
+  .container:hover .overlay {
+    opacity: .8;
+  }
+
+  .text {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+}
+
+.projects-list {
+  margin: auto;
+  left: 7px;
+
+}
+
+.project-item{
+  width: 20%;
+  margin-bottom: 15px;
+  position: relative;
+
+  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+  -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+}
+
+.project-item img {
+  width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+
+.filters-list{
+  background-color: black;
+  padding: 5px;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.filters-list li{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  display: inline-block;
+  background-color: #fd7e14;;
+  padding: 10px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+
+  -webkit-transiton: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transiion: all .3s ease-in-out;
+}
+
+.filters-list li:hover{
+  background-color: black;
+}
+.filters-list li.active{
+background-color: black;  border-color: #000;
+}
