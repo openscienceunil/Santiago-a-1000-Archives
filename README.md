@@ -11,7 +11,7 @@ Year: 1994
       2004
       2014
 Street theatre.
-<img src="/Users/aescocasti/Desktop/screenshot.jpg">
+![](screenshot2.png)
 
 The website was built on HTML, CSS and JavaScript's libraries JQuery and Isotope, allowing the filter of items on the website. All of them are included and available to download from this repository.
 This project was developed as part of the course "Publication Numérique" class by prof. Isaac Pante at the University of Lausanne - Autumn 2019-2020.
